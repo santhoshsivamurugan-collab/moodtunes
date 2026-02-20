@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodTunes - Mood Based Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-headphones-alt"></i>
+                <h1 class="animate__animated animate__pulse">Mood<span>Tunes</span></h1>
+            </div>
+            <p class="tagline">Your emotions, your soundtrack</p>
+        </header>
+
+        <!-- Player Section -->
+        <main class="player-section">
+            <div class="player-container">
+                <!-- Album Art & Visualization -->
+                <div class="album-section">
+                    <div class="vinyl-record">
+                        <div class="vinyl">
+                            <div class="vinyl-hole"></div>
+                            <div class="vinyl-label" id="currentMoodLabel">Mood</div>
+                        </div>
+                        <div class="vinyl-shadow"></div>
+                    </div>
+                    <div class="album-art">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                             alt="Album Art" id="albumArt">
+                        <div class="visualizer">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Song Info -->
+                <div class="song-info">
+                    <h2 id="songTitle">Select Your Mood</h2>
+                    <p id="artistName">Choose a mood to start playing music</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progressBar">
+                            <div class="progress" id="progress"></div>
+                        </div>
+                        <div class="time-display">
+                            <span id="currentTime">0:00</span>
+                            <span id="duration">0:00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Player Controls -->
+                <div class="player-controls">
+                    <button class="control-btn" id="shuffleBtn" title="Shuffle">
+                        <i class="fas fa-random"></i>
+                    </button>
+                    <button class="control-btn" id="prevBtn">
+                        <i class="fas fa-step-backward"></i>
+                    </button>
+                    <button class="control-btn play-btn" id="playBtn">
+                        <i class="fas fa-play" id="playIcon"></i>
+                    </button>
+                    <button class="control-btn" id="nextBtn">
+                        <i class="fas fa-step-forward"></i>
+                    </button>
+                    <button class="control-btn" id="repeatBtn" title="Repeat: Off">
+                        <i class="fas fa-redo"></i>
+                    </button>
+                    
+                    <!-- Volume Control -->
+                    <div class="volume-control">
+                        <button class="volume-icon-btn" id="muteBtn" title="Volume">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                        <div class="volume-slider-container">
+                            <div class="volume-track">
+                                <div class="volume-fill" id="volumeFill"></div>
+                            </div>
+                            <input type="range" min="0" max="100" value="70" class="volume-slider" id="volumeSlider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mood Selection -->
+            <div class="mood-section">
+                <h3><i class="fas fa-heart"></i> How are you feeling today?</h3>
+                <div class="moods-grid">
+                    <!-- Mood cards will be generated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Playlist -->
+            <div class="playlist-section">
+                <h3><i class="fas fa-list-music"></i> Current Playlist</h3>
+                <div class="playlist" id="playlist">
+                    <!-- Playlist items will be generated by JavaScript -->
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with <i class="fas fa-heart"></i> for music lovers | MoodTunes © 2024</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-codepen"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="audioPlayer"></audio>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
