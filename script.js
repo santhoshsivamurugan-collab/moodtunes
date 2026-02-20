@@ -36,21 +36,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: "mama choodaro",
                     artist: "NARESH IYER",
                     src: "happy/Maama Choodaro - happy1.mp3",
-                    cover: "cover/mama choodaro.jpg",
+                    cover: "mama choodaro.jpg",
                     duration: "4:30"
                 },
                 {
                     title: "singarala",
                     artist: "K.J.YESUDAS",
                     src: "happy/02 -  Singarala [www.SenSongsMp3.co].mp3",
-                    cover: "cover/singarala.jpg",
+                    cover: "singarala.jpg",
                     duration: "5:31"
                 },
                 {
                     title: "i wanna fly",
                     artist: "REVANTH",
                     src: "happy/I Wanna Fly - SenSongsMp3.Co.mp3",
-                    cover: "cover/i wanna fly.jpg",
+                    cover: "i wanna fly.jpg",
                     duration: "3:58"
                 }
             ]
@@ -64,14 +64,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: "ADIGA ADIGA",
                     artist: "SID SRIRAM",
                     src: "sad/Adiga Adiga - relaxed3.mp3",
-                    cover: "cover/adiga.jpg",
+                    cover: "adiga.jpg",
                     duration: "3:44"
                 },
                 {
                     title: "AMMA AMMA",
                     artist: "S P BALASUBRAMANYAM",
                     src: "sad/Amma Amma(7th sense) - Sad.mp3",
-                    cover: "cover/amma.jpg",
+                    cover: "amma.jpg",
                     duration: "6:07"
                 },
                 {
@@ -92,21 +92,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: "JEEVITHAM ANTE PORAATAM",
                     artist: "S P BALASUBRAMANYAM",
                     src: "energetic/05 - Jeevitamante Poraatam - SenSongsMp3.Co.mp3",
-                    cover: "cover/jeevitham.jpg",
+                    cover: "jeevitham.jpg",
                     duration: "4:39"
                 },
                 {
                     title: "CHOOPULTHO",
                     artist: "SHANKAR MAHADEVAN",
                     src: "energetic/Choopultho-SenSongsMp3.Co.mp3",
-                    cover: "cover/idiot.avif",
+                    cover: "idiot.avif",
                     duration: "4:33"
                 },
                 {
                     title: "BEAT IT",
                     artist: "MICHEAL JACKSON",
                     src: "songs/energetic/Micheal_Jackson_-_Beat_It_(mp3.pm).mp3",
-                    cover: "cover/beatit.jpg",
+                    cover: "beatit.jpg",
                     duration: "4:17"
                 }
             ]
@@ -120,21 +120,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: "KADALALLE",
                     artist: "SID SRIRAM",
                     src: "relaxed/Kadalalle - relaxed4.mp3",
-                    cover: "cover/kadallale.jpg",
+                    cover: "kadallale.jpg",
                     duration: "4:20"
                 },
                 {
                     title: "MADHURAME",
                     artist: "SAMEERA BHARADWAJ",
                     src: "relaxed/Madhurame _relaxed1.mp3",
-                    cover: "cover/arjun.jpg",
+                    cover: "arjun.jpg",
                     duration: "5:43"
                 },
                 {
                     title: "O VASUMATHI",
                     artist: "YAZIN NIZAR",
                     src: "relaxed/O Vasumathi - relaxed2.mp3",
-                    cover: "cover/vasumathi.jpg",
+                    cover: "vasumathi.jpg",
                     duration: "4:33"
                 }
             ]
@@ -148,21 +148,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: "NEE CHOOPULE",
                     artist: "HARI CHARAN",
                     src: "romantic/Nee Choopule - romantic3.mp3",
-                    cover: "cover/nee.jpg",
+                    cover: "nee.jpg",
                     duration: "6:02"
                 },
                 {
                     title: "PANCHADHARA BOMMA",
                     artist: "ANUJ GURWARA",
                     src: "romantic/Panchadhara Bomma-romantic4.mp3",
-                    cover: "cover/panch.jpg",
+                    cover: "panch.jpg",
                     duration: "4:47"
                 },
                 {
                     title: "YEMI CHEYAMANDHUVE",
                     artist: "SHANKAR MAHADEVAN",
                     src: "romantic/01 - Yemi Cheyamanduve - romantic5.mp3",
-                    cover: "cover/pri.jpg",
+                    cover: "pri.jpg",
                     duration: "6:00"
                 }
                 
@@ -178,21 +178,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: "MERUPAISAGARA",
                     artist: "KARTHIK",
                     src: "focused/Merupisaagara.mp3",
-                    cover: "cover/merupaisa.jpg",
+                    cover: "merupaisa.jpg",
                     duration: "4:35"
                 },
                 {
                     title: "TRAVELLING SOLDIER",
                     artist: "RAMANA GOGULA",
                     src: "focused/Travelling Soldier - SenSongsMp3.Co.mp3",
-                    cover: "cover/sol.jpg",
+                    cover: "sol.jpg",
                     duration: "4:28"
                 },
                 {
                     title: "MARI ANTAGA",
                     artist: "SREERAMA CHANDRA",
                     src: "focused/Mari Antaga-SenSongsMp3.Co.mp3",
-                    cover: "cover/mari.jpg",
+                    cover: "mari.jpg",
                     duration: "3:47"
                 }
             ]
@@ -716,3 +716,4 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(style);
 
 });
+
