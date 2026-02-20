@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: "YE MANISHIKE MAJILIYO",
                     artist: "CHINMAYI SRIPAADA",
                     src: "sad/Ye Manishike Majiliyo - Sad1.mp3",
-                    cover: "cover/majili.jpg",
+                    cover: "majili.jpg",
                     duration: "4:05"
                 }
             ]
@@ -716,4 +716,5 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(style);
 
 });
+
 
