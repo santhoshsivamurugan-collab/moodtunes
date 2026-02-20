@@ -35,21 +35,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     title: "mama choodaro",
                     artist: "NARESH IYER",
-                    src: "songs/happy/Maama Choodaro - happy1.mp3",
+                    src: "happy/Maama Choodaro - happy1.mp3",
                     cover: "cover/mama choodaro.jpg",
                     duration: "4:30"
                 },
                 {
                     title: "singarala",
                     artist: "K.J.YESUDAS",
-                    src: "songs/happy/02 -  Singarala [www.SenSongsMp3.co].mp3",
+                    src: "happy/02 -  Singarala [www.SenSongsMp3.co].mp3",
                     cover: "cover/singarala.jpg",
                     duration: "5:31"
                 },
                 {
                     title: "i wanna fly",
                     artist: "REVANTH",
-                    src: "songs/happy/I Wanna Fly - SenSongsMp3.Co.mp3",
+                    src: "happy/I Wanna Fly - SenSongsMp3.Co.mp3",
                     cover: "cover/i wanna fly.jpg",
                     duration: "3:58"
                 }
@@ -63,21 +63,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     title: "ADIGA ADIGA",
                     artist: "SID SRIRAM",
-                    src: "songs/sad/Adiga Adiga - relaxed3.mp3",
+                    src: "sad/Adiga Adiga - relaxed3.mp3",
                     cover: "cover/adiga.jpg",
                     duration: "3:44"
                 },
                 {
                     title: "AMMA AMMA",
                     artist: "S P BALASUBRAMANYAM",
-                    src: "songs/sad/Amma Amma(7th sense) - Sad.mp3",
+                    src: "sad/Amma Amma(7th sense) - Sad.mp3",
                     cover: "cover/amma.jpg",
                     duration: "6:07"
                 },
                 {
                     title: "YE MANISHIKE MAJILIYO",
                     artist: "CHINMAYI SRIPAADA",
-                    src: "songs/sad/Ye Manishike Majiliyo - Sad1.mp3",
+                    src: "sad/Ye Manishike Majiliyo - Sad1.mp3",
                     cover: "cover/majili.jpg",
                     duration: "4:05"
                 }
@@ -91,14 +91,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     title: "JEEVITHAM ANTE PORAATAM",
                     artist: "S P BALASUBRAMANYAM",
-                    src: "songs/energetic/05 - Jeevitamante Poraatam - SenSongsMp3.Co.mp3",
+                    src: "energetic/05 - Jeevitamante Poraatam - SenSongsMp3.Co.mp3",
                     cover: "cover/jeevitham.jpg",
                     duration: "4:39"
                 },
                 {
                     title: "CHOOPULTHO",
                     artist: "SHANKAR MAHADEVAN",
-                    src: "songs/energetic/Choopultho-SenSongsMp3.Co.mp3",
+                    src: "energetic/Choopultho-SenSongsMp3.Co.mp3",
                     cover: "cover/idiot.avif",
                     duration: "4:33"
                 },
@@ -119,21 +119,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     title: "KADALALLE",
                     artist: "SID SRIRAM",
-                    src: "songs/relaxed/Kadalalle - relaxed4.mp3",
+                    src: "relaxed/Kadalalle - relaxed4.mp3",
                     cover: "cover/kadallale.jpg",
                     duration: "4:20"
                 },
                 {
                     title: "MADHURAME",
                     artist: "SAMEERA BHARADWAJ",
-                    src: "songs/relaxed/Madhurame _relaxed1.mp3",
+                    src: "relaxed/Madhurame _relaxed1.mp3",
                     cover: "cover/arjun.jpg",
                     duration: "5:43"
                 },
                 {
                     title: "O VASUMATHI",
                     artist: "YAZIN NIZAR",
-                    src: "songs/relaxed/O Vasumathi - relaxed2.mp3",
+                    src: "relaxed/O Vasumathi - relaxed2.mp3",
                     cover: "cover/vasumathi.jpg",
                     duration: "4:33"
                 }
@@ -147,21 +147,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     title: "NEE CHOOPULE",
                     artist: "HARI CHARAN",
-                    src: "songs/romantic/Nee Choopule - romantic3.mp3",
+                    src: "romantic/Nee Choopule - romantic3.mp3",
                     cover: "cover/nee.jpg",
                     duration: "6:02"
                 },
                 {
                     title: "PANCHADHARA BOMMA",
                     artist: "ANUJ GURWARA",
-                    src: "songs/romantic/Panchadhara Bomma-romantic4.mp3",
+                    src: "romantic/Panchadhara Bomma-romantic4.mp3",
                     cover: "cover/panch.jpg",
                     duration: "4:47"
                 },
                 {
                     title: "YEMI CHEYAMANDHUVE",
                     artist: "SHANKAR MAHADEVAN",
-                    src: "songs/romantic/01 - Yemi Cheyamanduve - romantic5.mp3",
+                    src: "romantic/01 - Yemi Cheyamanduve - romantic5.mp3",
                     cover: "cover/pri.jpg",
                     duration: "6:00"
                 }
@@ -177,21 +177,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     title: "MERUPAISAGARA",
                     artist: "KARTHIK",
-                    src: "songs/focused/Merupisaagara.mp3",
+                    src: "focused/Merupisaagara.mp3",
                     cover: "cover/merupaisa.jpg",
                     duration: "4:35"
                 },
                 {
                     title: "TRAVELLING SOLDIER",
                     artist: "RAMANA GOGULA",
-                    src: "songs/focused/Travelling Soldier - SenSongsMp3.Co.mp3",
+                    src: "focused/Travelling Soldier - SenSongsMp3.Co.mp3",
                     cover: "cover/sol.jpg",
                     duration: "4:28"
                 },
                 {
                     title: "MARI ANTAGA",
                     artist: "SREERAMA CHANDRA",
-                    src: "songs/focused/Mari Antaga-SenSongsMp3.Co.mp3",
+                    src: "focused/Mari Antaga-SenSongsMp3.Co.mp3",
                     cover: "cover/mari.jpg",
                     duration: "3:47"
                 }
@@ -714,4 +714,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     `;
     document.head.appendChild(style);
+
 });
