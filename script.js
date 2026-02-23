@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: "CHOOPULTHO",
                     artist: "SHANKAR MAHADEVAN",
                     src: "energetic/Choopultho-SenSongsMp3.Co.mp3",
-                    cover: "idiot.avif",
+                    cover: "choopultho.jpg",
                     duration: "4:33"
                 },
                 {
@@ -716,5 +716,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(style);
 
 });
+
 
 
